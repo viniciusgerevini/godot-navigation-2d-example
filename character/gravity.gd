@@ -55,3 +55,7 @@ func is_falling():
 	return gravity_movement.y > 0
 
 
+func get_jump_real_max_height():
+	return jump_max_height * movement_unit
+
+
